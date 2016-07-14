@@ -1,0 +1,94 @@
+/*.container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}*/
+body{
+    background: url(../img/fondo.jpg);
+    background-size: repeat;
+}
+.clock {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: transparent;
+    color: #fff;
+    #Date {
+        font-size: 26px;
+        text-align: center;
+        text-shadow: 0 0 5px #ec1046;
+    }
+    .tiempo{
+        width: 600px;
+        margin: 0 auto;
+        padding: 0px;
+        list-style: none;
+        margin-left: 24%;
+        li{
+            display: inline;
+            font-size: 5em;
+            text-align: center;
+            text-shadow: 0 0 5px #9913ba;  
+        }
+        #point{
+            position: relative;
+            -moz-animation: mymove 1s ease infinite;
+            -webkit-animation: mymove 1s ease infinite;
+            padding: 0 10px;
+        }
+    }
+
+}
+.btn-primary{
+    padding: 2% 2%;
+    margin-left: 47%;
+    i{
+        color: white;
+        font-size: 15px;
+    }
+}
+#zonas{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 36%;
+    .list{
+        font-size: 16px;
+        color: #d9edf7;
+        text-shadow: 0 0 5px #c10587;
+    }
+}
+
+/* Simple Animation */
+/*@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}	
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
+}
+*/
